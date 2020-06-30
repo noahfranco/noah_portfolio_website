@@ -1,0 +1,794 @@
+.App {
+  text-align: center;
+  background: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* Projects page */
+/* Front-End Development section */
+
+.IconWrap {
+  padding: 28px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.Icon {
+  font-size: 38px;
+  margin-right: 20px;
+}
+
+.Pdf {
+  width: 65%;
+}
+
+.Pdf-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+/* .iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+} */
+
+.Center-Icon {
+  display: flex;
+  justify-content: center;
+}
+
+.project-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 1000px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+}
+
+.Link {
+  font-size: 30px;
+}
+
+.BodyContent {
+  width: 850px;
+  height: auto;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 1150px;
+  margin-top: -500px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.PlanFulContent {
+  width: 850px;
+  height: auto;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 1150px;
+  margin-top: -400px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 2;
+}
+
+.Space {
+  margin: 250px;
+}
+
+.BodyDiabetes {
+  width: 850px;
+  height: auto;
+  font-size: 22px;
+  margin-top: -300px;
+  margin-left: 60px;
+  /* display: inline-block; */
+  border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px lightgray;
+}
+
+.RVbnb {
+  width: 850px;
+  height: auto;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 1150px;
+  margin-top: -370px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.Reverse {
+  display: flex;
+  flex-direction: column;
+}
+
+.MoveImg {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Create-More-Space {
+  margin: 350px;
+}
+
+.boarder-top {
+  border-top: 3px solid black;
+}
+
+.body-style {
+  width: 100%;
+  height: auto;
+  margin: 5% 5% 5% 5%;
+  font-size: 22px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px lightgray;
+}
+
+.wrap-zone {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden !important;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.wrap-zone-two {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Backend-Space {
+  margin: 250px;
+}
+
+.RV-Diabetes-Space {
+  margin: 200px;
+}
+
+.More-Space {
+  margin: 18px;
+}
+
+.More-More-Space {
+  margin: 30px;
+}
+
+.Small-Space {
+  margin: 10px;
+}
+
+/* Contact Component */
+
+.Input {
+  width: 100%;
+  height: 800px;
+  /* margin: 400px;
+  margin-left: 300px; 
+  margin-top: 1px;  */
+  border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px lightgray;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: green; */
+}
+
+.contact-button {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 23rem;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* div that lives on top on form div  */
+
+.TopDive {
+  width: 20rem;
+  height: 53rem;
+  position: absolute;
+  display: inline-block;
+  margin-left: 40rem;
+  margin-bottom: 300px;
+  background: #343940;
+  display: flex;
+  justify-content: center;
+}
+
+.insideDiv {
+  width: 400px;
+  height: auto;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+button {
+  border: none;
+  color: #ffffff;
+  background: #343940;
+  padding: 15px 32px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* technology section */
+
+.PageSection {
+  padding: 8rem 0;
+}
+
+.Container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Text-Center {
+  text-align: center !important;
+}
+
+.Row {
+  display: flex;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mt-5,
+.my-5 {
+  margin-top: 3rem !important;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+  font-size: 18px;
+}
+
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #00008b;
+}
+
+.SocialLinks {
+  font-size: 35px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SocialOnNav {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Center-GitIcon {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.Button-Hover {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-animation: bounce 0.4s infinite alternate;
+  -moz-animation: bounce 0.4s infinite alternate;
+  animation: bounce 0.4s infinite alternate;
+}
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.1);
+  }
+}
+@-moz-keyframes bounce {
+  to {
+    -moz-transform: scale(1.1);
+  }
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.NoColor {
+  text-decoration: none;
+  color: white;
+  font-size: 42px;
+}
+
+.black-icon {
+  text-decoration: none;
+  color: black;
+  font-size: 42px;
+}
+
+.IconBody {
+  text-decoration: none;
+  color: black;
+  font-size: 33px;
+}
+
+.WebIcon {
+  text-decoration: none;
+  color: black;
+  font-size: 33px;
+}
+
+.linkColor {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.landing-page-link {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.x-y {
+  overflow-x: hidden !important;
+}
+
+/* Home page CSS */
+
+.background {
+  height: 100vh;
+  background-position: center;
+}
+
+.img {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 5px rgba(2, 3, 1, 0.5);
+}
+
+.title {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 1px 1px 2px #4d4d4d, 0 0 20px #4d4d4d;
+}
+
+.sub-title {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+}
+
+.planful-space {
+  margin: 20px;
+}
+
+.row-one {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 65px;
+  margin-left: 65px;
+}
+
+.row-two {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 65px;
+  margin-left: 65px;
+}
+
+.center-h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.center-p {
+  width: 800px;
+  height: auto;
+  margin-right: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.content-wraper {
+  /* width: 500px;
+  height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 100px; */
+}
+
+@media only screen and (max-width: 800px) {
+  /* Home page */
+
+  .background {
+    overflow-x: hidden !important;
+    height: 100vh;
+    background-position: center;
+  }
+}
+
+.Pdf {
+  width: 80%;
+}
+
+.Pdf-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+  .img {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 5px rgba(2, 3, 1, 0.5);
+  }
+
+  .project-img {
+    width: 330px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .title {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 2px #4d4d4d, 0 0 20px #4d4d4d;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .text-muted {
+    font-size: 10px;
+  }
+
+  .center-h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-p {
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-wraper {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .title {
+    font-size: 2.2rem; 
+    color: white; 
+    text-shadow: 1px 1px 2px #4d4d4d, 0 0 20px #4d4d4d;
+  } */
+
+  .sub-title {
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+  }
+
+  .Button-Hover {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-animation: bounce 0.4s infinite alternate;
+    -moz-animation: bounce 0.4s infinite alternate;
+    animation: bounce 0.4s infinite alternate;
+  }
+
+  .NoColor {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  /* ******************************
+   For Project component
+  ******************************** */
+
+  /* Icons */
+
+  .Container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* .Row {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin-right: 0px;
+    margin-left: 0px;
+  } */
+
+  .Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .row-one {
+    display: flex;
+    justify-content: row;
+    /* background: green; */
+  }
+
+  .row-two {
+    display: flex;
+    justify-content: row;
+    /* background: blue; */
+  }
+
+  /* Navbar */
+
+  .landing-page-link {
+    color: #ffffff;
+    font-size: 25px;
+  }
+
+  .linkColor {
+    color: #ffffff;
+    font-size: 19px;
+  }
+
+  .NoColor {
+    display: none;
+  }
+
+  /* Body */
+
+  .BodyWidth {
+    overflow-x: hidden !important;
+  }
+
+  .wrap-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .wrap-zone-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .MoveImg {
+    width: 250%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .body-style {
+    width: 300px;
+    height: auto;
+    margin: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 6px -6px lightgray;
+  }
+
+  .img-planful {
+    width: 2px;
+    height: auto;
+  }
+}
