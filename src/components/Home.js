@@ -3,16 +3,7 @@ import "../App.css";
 import Me from "../img/noahfranco.png";
 import BackgroundPhoto from "../img/code.png";
 import { Link } from "react-router-dom";
-import {
-  Hover,
-  Img,
-  Title,
-  Button,
-  Background,
-  TopContent,
-  SubTitle,
-  ReplaceHover,
-} from "./Style.js";
+import { TopContent, SubTitle, ReplaceHover } from "./Style.js";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Home = () => {
@@ -32,11 +23,9 @@ const Home = () => {
         />
       </div>
       <TopContent>
-        {/* <Hover>  */}
         <ReplaceHover>
           <img className="img" src={Me} alt="noah franco" />
         </ReplaceHover>
-        {/* </Hover>  */}
         <div className="Small-Space"> </div>
         <div className="title"> Noah Franco </div>
         <div className="Small-Space"> </div>
