@@ -66,14 +66,6 @@ const FontIcons = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-3 col-md-6 text-center">
-          <div className="mt-5">
-            <FaReact className="Icon" />
-            <h3 className="h4 mb-2">Sass</h3>
-            <FaSass className="Icon" />
-            <p className="text-muted mb-0">Programming knowledge and experience with React.js</p>
-          </div>
-        </div> */}
         </div>
       </div>
     </div>
