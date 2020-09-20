@@ -24,10 +24,11 @@ const NavBar = () => {
         </Link>
         {/* There's a weird img on the contact page and not sure where it's coming from */}
         {/* <Link to="/contact" className="linkColor"> Contact </Link>  */}
-        <Link to="/resume" className="linkColor">
+        {/* commenting out resume for now */}
+        {/* <Link to="/resume" className="linkColor">
           {" "}
           Resume{" "}
-        </Link>
+        </Link> */}
         <div className="SocialOnNav">
           <a
             href="https://www.linkedin.com/in/noahfranco/"
